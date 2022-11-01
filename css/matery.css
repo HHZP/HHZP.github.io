@@ -1813,7 +1813,7 @@ thead {
 
 .my-gallery {
     margin: 4.5rem auto 1rem;
-    padding: 0 1.2rem;
+    padding: 0 12rem;
     max-width: 1100px;
 }
 
@@ -1826,6 +1826,19 @@ thead {
     height: 200px;
     border-radius: 10px;
     cursor: pointer;
+
+
+
+  &.first-child  /*以下部分能使图片居中显示*/
+    display: block;
+  &.loaded
+    position: absolute;
+    display: block;
+  img
+    display: block;
+    max-width: 100%;
+    margin: 0 auto ;
+
 }
 
 /*尾部样式*/
