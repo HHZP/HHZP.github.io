@@ -185,7 +185,7 @@
 	         * @example
 	         *
 	         *     var wordArray = CryptoJS.lib.WordArray.create();
-[O	         *     var wordArray = CryptoJS.lib.WordArray.create([0x00010203, 0x04050607]);
+	         *     var wordArray = CryptoJS.lib.WordArray.create([0x00010203, 0x04050607]);
 	         *     var wordArray = CryptoJS.lib.WordArray.create([0x00010203, 0x04050607], 6);
 	         */
 	        init: function (words, sigBytes) {
@@ -2111,7 +2111,7 @@
 	     * @param {WordArray|string} salt A salt.
 	     * @param {Object} cfg (Optional) The configuration options to use for this computation.
 	     *
-[I	     * @return {WordArray} The derived key.
+	     * @return {WordArray} The derived key.
 	     *
 	     * @static
 	     *
